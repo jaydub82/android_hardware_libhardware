@@ -201,7 +201,7 @@ typedef struct gralloc_module_t {
      */
 
     int (*getphys) (struct gralloc_module_t const* module,
-            buffer_handle_t handle, int *paddr);
+            buffer_handle_t handle, void** paddr);
 #endif
 
     /* reserved for future use */
